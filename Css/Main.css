@@ -1,3 +1,7 @@
+body{
+    width: 100%;
+    height: auto;
+}
 header{
     position: sticky;
     top: 0;
@@ -58,9 +62,14 @@ nav ul li a{
     display: none;
 }
 @media( max-width: 	360px){
+body{
+    width: 100%;
+    height: auto;
+}
     header{
-        height: 400px;
-        background-color: rgba(8, 61, 11, 0.9);
+       height: auto;
+       width: 100%;
+        background-color: rgba(6,21,62,0.9);
     }
     .mtitle{
 display: block;
