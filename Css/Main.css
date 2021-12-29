@@ -57,7 +57,11 @@ nav ul li a{
 #check{
     display: none;
 }
-@media( max-width: 500px){
+@media( max-width: 350px){
+    header{
+        height: 400px;
+        background-color: rgba(6,21,62,0.9);
+    }
     .mtitle{
 display: block;
 font-size: 10px;
