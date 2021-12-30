@@ -114,18 +114,22 @@ float: left;
         background-color: rgba(37, 66, 146, 0.9);
     }
     .mtitle{
+        display: none;
 font-size: 11px;
 margin-right: 80px;
     }
     .logo{
+        display: none;
         height: 100px;
         width: 100px;
         margin-left: 0px;
     }
+}
+ @media( max-width: 900px){
      ul{
         display: none;
         width: 100%;
-        height: auto;
+        height: 100vh;
         background-color: rgb(3, 5, 8);
         top: 5px;
         left: -100;

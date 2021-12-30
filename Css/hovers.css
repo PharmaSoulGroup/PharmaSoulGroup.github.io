@@ -38,7 +38,7 @@
     transform: scaleX(1);
     transform-origin: bottom right;
   }
-  @media( max-width: 360px){
+  @media( max-width: 900px){
     .hover-underline-animation::before{
       display: none;
     }
