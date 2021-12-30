@@ -8,32 +8,37 @@
     <title>About Us</title>
     <!-- JavaScript Code -->
     <script src="JavaScript/slideShow2.js"></script>
+    <script src="https://kit.fontawesome.com/ce48c2f63f.js" crossorigin="anonymous"></script>
     <!-- Css Files -->
     <link rel="stylesheet" href="Css/About us.css">
     <link rel="stylesheet" href="Css/hovers.css">
     <link rel="stylesheet" href="Css/slidesShow.css">
 </head>
-
 <body>
     <header>
-        <div>
-            <nav>
-                <a class="hover-underline-animation" href="index.html#home">HOME</a>
-                <a class="hover-underline-animation" href="index.html#about">ABOUT US</a>
-                <a class="hover-underline-animation" href="index.html#service">SERVICES</a>
-                <a class="hover-underline-animation" href="index.html#division">DIVISION</a>
-                <a class="hover-underline-animation" href="index.html#partner">PARTNER</a>
-                <a class="hover-underline-animation" href="index.html#contact">CONTACT</a>
-                <a class="hover-underline-animation" href="index.html#location">LOCATION</a>
+        <img class="logo" src="mainPictures/Logo.jpg" alt="Company Logo">
+                <nav>
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <div class="container2" onclick="myFunction(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                          </div> </label>
+                    <div class="mtitle">
+                        <h1 >Pharma Soul Group</h1>
+                        <h4>For Pharmaceuticals and Medical Supplies</h4>
+                    </div>
+                <ul>
+                    <li><a class="hover-underline-animation" href="About us.html#homey">HOME</a></li>
+                    <li><a class="hover-underline-animation" href="About us.html#about">ABOUT US</a></li>
+                    <li><a class="hover-underline-animation" href="About us.html#services">SERVICES</a></li>
+                    <li><a class="hover-underline-animation" href="About us.html#divisions">DIVISION</a></li>
+                    <li><a class="hover-underline-animation" href="About us.html#partners">PARTNER</a></li>
+                    <li><a class="hover-underline-animation" href="About us.html#contacts">CONTACT</a></li>
+                    <li><a class="hover-underline-animation" href="About us.html#location">LOCATION</a></li>
+                </ul>
             </nav>
-        </div>
-        <div>
-            <img class="logo" src="mainPictures/Logo.jpg" alt="Company Logo">
-        </div>
-        <div class="Discr">
-            <h1 class="Name1">Pharma Soul Group</h1>
-            <h3 class="Name2"> For Pharmaceuticals and Medical Supplies</h3>
-        </div>
     </header>
 
     <!-- Starting our home section -->
@@ -96,7 +101,7 @@
 
                 <h2>Sections</h2>
                 <h3> Pharma Soul Group Consists of Several Sections Including: </h3>
-                <h4>
+                <h4 class="h4">
                     <ol>
                         <li> Medications and Pharmaceutical Finished Formulations</li>
                         <li>Food Supplements</li>
@@ -156,7 +161,7 @@
 
             <h2>Objectives</h2>
             <h3>To achieve our vision, we are highly working on the following strategies:</h3>
-            <h4>
+            <h4 class="h4">
                 <ul>
                     <li>Join forces with selective principals to forge progressive and profitable long term relations.
                     </li>
@@ -170,7 +175,7 @@
                         distributors.
                     </li>
                 </ul>
-            </h4>
+            </h4 class="h4">
         </div>
 
 
@@ -204,6 +209,11 @@
             dots[slideIndex - 1].className += " active";
         }
     </script>
+      <script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+        }
+        </script>
 </body>
 
 </html>

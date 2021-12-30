@@ -111,7 +111,7 @@ float: left;
     header{
        height: 150px;
        width: 100%;
-        background-color: rgba(37, 66, 146, 0.9);
+        background-color:  rgba(6,21,62,0.9);
     }
     .mtitle{
         display: none;
@@ -494,7 +494,7 @@ footer .icons{
             font-size: 10px;
         }
         #rights label{
-            font-size: 10px;
+             font-size: 10px;
             font-weight: bold;
         }
       }
