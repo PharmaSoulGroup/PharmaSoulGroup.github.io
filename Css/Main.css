@@ -63,7 +63,7 @@ nav ul li a{
 }
 @media( max-width: 	360px){
     header{
-       height: 200px;
+       height: 150px;
        width: 100%;
         background-color: rgba(37, 66, 146, 0.9);
     }
