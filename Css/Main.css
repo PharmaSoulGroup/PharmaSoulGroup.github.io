@@ -209,7 +209,7 @@ color: rgb(43, 133, 133);
     color: rgb(43, 133, 133);
     
 }
-@media (max-width: 901) {
+@media (max-width: 901px) {
     #home{
         width: 100%;
         height: auto;
@@ -239,7 +239,7 @@ color: rgb(43, 133, 133);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
 }
 #service .imglink{
-        display:block;
+        display:inline-block;
 }
 #service a:hover{
     color: black;
@@ -251,6 +251,15 @@ color: rgb(43, 133, 133);
     margin-right: 20px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (max-width: 901px){
+    #service{
+        margin-top: 50px;
+
+    }  
+    #service .imglink{
+        display:block;
+}
 }
 #division{
     padding: 30px;
