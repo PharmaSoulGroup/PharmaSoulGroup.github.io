@@ -107,7 +107,7 @@ float: left;
      left: 0;
  }
  }*/
- @media( max-width: 900px){
+  @media( max-width: 900px){
     header{
        height: 150px;
        width: 100%;
@@ -124,7 +124,6 @@ margin-right: 80px;
         width: 100px;
         margin-left: 0px;
     }
-}
  @media( max-width: 900px){
      ul{
         display: none;
