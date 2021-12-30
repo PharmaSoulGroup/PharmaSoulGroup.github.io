@@ -128,6 +128,9 @@ margin-right: 80px;
  @media( max-width: 900px){
      ul{
         display: none;
+        position: sticky;
+        top: 0;
+        z-index: 100;
         width: 100%;
         height: 100vh;
         background-color: rgb(3, 5, 8);
