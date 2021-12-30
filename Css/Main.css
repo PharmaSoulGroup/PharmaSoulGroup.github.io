@@ -297,6 +297,8 @@ color: rgb(43, 133, 133);
         padding: 0px;
         margin-top: 100px;
         color:  rgb(43, 133, 133);
+        padding-top: 10px;
+        padding-bottom: 20px;
     }
     #division .imglink{
         padding: 0px;
@@ -310,9 +312,8 @@ color: rgb(43, 133, 133);
 
     }
 .title{
-    width: 100%;
-    margin-left: 0px;
-    margin-top: 20px;
+    width: 95%;
+    margin-left: 10px;
 }
 
 }
@@ -429,7 +430,7 @@ footer .icons{
         padding: 15px;
         font-size: large;
     }
-@media (max-width: 700px) {
+@media (max-width: 901px) {
   #division{
     border-radius: 10px;
    }
