@@ -409,10 +409,10 @@ footer .icons{
         width: 90%;
         margin-left: 0%;
         padding: 10px;
-        background-color: aqua;
+        background-color: white;
     }
     footer .icons{
-        font-size: 15px;
+        font-size: 18px;
         padding: none;
     }
     #contact2{
