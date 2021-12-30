@@ -294,6 +294,7 @@ color: rgb(43, 133, 133);
 }
 @media (max-width: 901px){
     #division .imglink{
+        padding: 0px;
         display: block;
     }
 .title{
