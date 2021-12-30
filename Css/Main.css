@@ -297,6 +297,13 @@ color: rgb(43, 133, 133);
         padding: 0px;
         display: block;
     }
+    .link2{
+        color: aqua;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        padding: 20px;
+
+    }
 .title{
     width: 100%;
     margin-left: 0px;
