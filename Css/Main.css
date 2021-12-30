@@ -263,7 +263,7 @@ color: rgb(43, 133, 133);
 }
 #division{
     padding: 30px;
-    margin-top: 15%;
+    margin-top: 100px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
     border-radius: 50%;
@@ -293,6 +293,11 @@ color: rgb(43, 133, 133);
    padding: 20px;
 }
 @media (max-width: 901px){
+    #division{
+        padding: 0px;
+        margin-top: 100px;
+        color:  rgb(43, 133, 133);
+    }
     #division .imglink{
         padding: 0px;
         display: block;
