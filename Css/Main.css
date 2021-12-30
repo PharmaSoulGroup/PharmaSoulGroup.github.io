@@ -254,7 +254,7 @@ color: rgb(43, 133, 133);
 }
 @media (max-width: 901px){
     #service{
-        margin-top: 50px;
+        margin-top: 100px;
 
     }  
     #service .imglink{
