@@ -292,7 +292,16 @@ color: rgb(43, 133, 133);
    border-radius: 100%;
    padding: 20px;
 }
+@media (max-width: 901px){
+    #division .imglink{
+        display: block;
+    }
+.title{
+    width: 100%;
+    margin-left: 0px;
+}
 
+}
 #partner{
     margin-top: 15%;
     color: rgb(43, 133, 133);
@@ -412,7 +421,7 @@ footer .icons{
       .bar1, .bar2, .bar3 {
         width: 35px;
         height: 5px;
-        background-color: #333;
+        background-color:white;
         margin: 6px 0;
         transition: 0.4s;
       }
