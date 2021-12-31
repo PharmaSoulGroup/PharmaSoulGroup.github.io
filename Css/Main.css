@@ -115,14 +115,17 @@ float: left;
     }
     .mtitle{
 display: block;
-font-size: 11px;
-margin-right: 80px;
+font-size: 12px;
+margin-top: 10px;
+
+
     }
     .logo{
 
         height: 100px;
         width: 100px;
-        margin-left: 0px;
+        margin-left: 5px;
+        margin-top: 10px;
     }
 }
  @media( max-width: 901px){
