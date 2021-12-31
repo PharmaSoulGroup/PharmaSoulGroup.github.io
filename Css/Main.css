@@ -124,6 +124,9 @@ margin-top: 30px;
         margin-bottom: 0px;
         margin-top: 20px;
     }
+    #about{
+        background-size: 100% 100%;
+    }
 }
  @media( max-width: 901px){
      ul{
@@ -154,7 +157,7 @@ margin-top: 30px;
   .checkbtn{
     display: block;
     line-height: 10px;
-    margin-right: 10px;
+    margin-right: 8px;
 
 }
  #check:checked ~ ul{
