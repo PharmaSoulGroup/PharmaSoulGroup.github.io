@@ -9,6 +9,7 @@ header{
     height: 150px;
     background-color: rgba(6,21,62,0.9);
     border-radius: 10px;
+    
 }
 .logo{
     height: 140px;
@@ -159,7 +160,7 @@ float: left;
   .checkbtn{
     display: block;
     line-height: 15px;
-    margin-right: 3px;
+    margin-right: 2px;
 
 }
 #check:checked ~ ul{
