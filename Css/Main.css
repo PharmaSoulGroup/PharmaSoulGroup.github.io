@@ -114,11 +114,8 @@ float: left;
         background-color:  rgba(6,21,62,0.9);
     }
     .mtitle{
-
 font-size: 10px;
 margin-top: 30px;
-
-
     }
     .logo{
         height: 100px;
@@ -159,8 +156,9 @@ margin-top: 30px;
   color: aliceblue;
   }
   .checkbtn{
+    clear: both;
     display: block;
-    line-height: 10px;
+    line-height: 0px;
     margin-right: 3px;
 
 }
