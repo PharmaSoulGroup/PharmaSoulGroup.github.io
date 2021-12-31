@@ -158,7 +158,7 @@ margin-top: 30px;
   .checkbtn{
     display: block;
     line-height: 15px;
-    margin-right: 0px;
+    margin-right: 2px;
 
 }
  #check:checked ~ ul{
