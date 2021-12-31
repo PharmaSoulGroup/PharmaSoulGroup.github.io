@@ -17,6 +17,10 @@
 <body>
     <header>
         <img class="logo" src="mainPictures/Logo.jpg" alt="Company Logo">
+        <div class="mtitle">
+            <h1 >Pharma Soul Group</h1>
+            <h4>For Pharmaceuticals and Medical Supplies</h4>
+        </div>
                 <nav>
                     <input type="checkbox" id="check">
                     <label for="check" class="checkbtn">
@@ -25,24 +29,21 @@
                             <div class="bar2"></div>
                             <div class="bar3"></div>
                           </div> </label>
-                    <div class="mtitle">
-                        <h1 >Pharma Soul Group</h1>
-                        <h4>For Pharmaceuticals and Medical Supplies</h4>
-                    </div>
                 <ul>
-                    <li><a class="hover-underline-animation" href="About us.html#homey">HOME</a></li>
-                    <li><a class="hover-underline-animation" href="About us.html#about">ABOUT US</a></li>
-                    <li><a class="hover-underline-animation" href="About us.html#services">SERVICES</a></li>
-                    <li><a class="hover-underline-animation" href="About us.html#divisions">DIVISION</a></li>
-                    <li><a class="hover-underline-animation" href="About us.html#partners">PARTNER</a></li>
-                    <li><a class="hover-underline-animation" href="About us.html#contacts">CONTACT</a></li>
-                    <li><a class="hover-underline-animation" href="About us.html#location">LOCATION</a></li>
+                    <li><a class="hover-underline-animation" href="index.html#homey">HOME</a></li>
+                    <li><a class="hover-underline-animation" href="index.html#about">ABOUT US</a></li>
+                    <li><a class="hover-underline-animation" href="index.html#services">SERVICES</a></li>
+                    <li><a class="hover-underline-animation" href="index.html#divisions">DIVISION</a></li>
+                    <li><a class="hover-underline-animation" href="index.html#partners">PARTNER</a></li>
+                    <li><a class="hover-underline-animation" href="index.html#contacts">CONTACT</a></li>
+                    <li><a class="hover-underline-animation" href="index.html#location">LOCATION</a></li>
                 </ul>
             </nav>
     </header>
 
     <!-- Starting our home section -->
     <div id="home">
+        <div id="aboutUs"></div>
         <div class="slideshow-container">
             <div class="mySlides fade">
                 <div class="numbertext">1 / 3</div>
@@ -70,10 +71,10 @@
             <span class="dot" onclick="currentSlide(3)"></span>
         </div>
     </div>
-
+    <div id="history"></div>
+    <h1 id="aboutUs1">About Us</h1>
     <div class="backg" style="background-image: url('mainPictures/tools.jpg');
      background-repeat: no-repeat;background-attachment: fixed;background-size: cover;">
-        <h1 id="aboutUs">About Us</h1>
         <div class="right">
             <img class="photo" src="mainPictures/soul 3.jpg" alt="">
             <img  class="photo" src="mainPictures/soul 2.jpg" alt="">
@@ -99,19 +100,20 @@
                 term relationship with its principals and customers by providing high
                 quality products and services.</p>
 
-                <h2>Sections</h2>
+                <h2 id="sections">Sections</h2>
                 <h3> Pharma Soul Group Consists of Several Sections Including: </h3>
                 <h4 class="h4">
                     <ol>
+                        <div id="missions"></div>
                         <li> Medications and Pharmaceutical Finished Formulations</li>
                         <li>Food Supplements</li>
                         <li>Cosmetics</li>
                         <li>Healty Care Product</li>
                         <li>Nutrition Products</li>
+                        
                     </ol>
                 </h4>
-
-            <h2>Mission</h2>
+            <h2 >Mission</h2>
             <p>
                 Pharma Soul is a powerful multi disciplinary business organization with
                 full access to the techniques of modern business and technological arena.
@@ -146,23 +148,24 @@
                 and private hospitals; however, it’s not only limited to large organizations.<br>
                 Pharma Soul has the capabilities to do business on all scales from single
                 consumer orders to turn key projects.</p>
-
+                <div id="vision"></div>
             <p>Pharma Soul has always strived to implement a clear and transparent line
                 between its customers and employees ensuring that comments and constructive
                 criticism is always heard. This in turn, has added in developing Pharma Soul
-                philosophy of performance and progress.</p>
+                philosophy of performance and progress.
+           </p>
 
             <h2>Vision</h2>
+            <div id="objectives"></div>
             <p>Our vision at Pharma Soul Group is to offer though our principals the most innovative
                 and highest quality products and services to improve the quality of life
                 of the patients and to take care of every single aspect of health care and
                 to concentrate on the niche marketing on the General, Gynecological, pediatric
                 and Dermatological markets.</p>
-
             <h2>Objectives</h2>
             <h3>To achieve our vision, we are highly working on the following strategies:</h3>
             <h4 class="h4">
-                <ul>
+                <ol>
                     <li>Join forces with selective principals to forge progressive and profitable long term relations.
                     </li>
                     <li>Encourage initiative and efficient decision making.
@@ -174,11 +177,9 @@
                     <li>Enhance team spirit by coordinating and exchange of information with our principals and
                         distributors.
                     </li>
-                </ul>
-            </h4 class="h4">
+                </ol>
+            </h4>
         </div>
-
-
     </div>
     <!-- Internal Script for Slides show -->
     <script>

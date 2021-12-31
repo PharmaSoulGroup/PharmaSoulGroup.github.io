@@ -115,13 +115,12 @@ float: left;
     }
     .mtitle{
 display: block;
-font-size: 11px;
+font-size: 10px;
 margin-top: 10px;
 
 
     }
     .logo{
-
         height: 100px;
         width: 100px;
         margin-left: 5px;
